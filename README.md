@@ -27,3 +27,14 @@ INSTALLED_APPS = [
     'izuser'
 ]
 ```
+4. Model migrate
+```shell script
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+5. 서버 실행
+```shell script
+$ python manage.py runserver
+$ python manage.py createsuperuser # 어드민 계정 생성
+```
